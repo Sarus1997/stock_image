@@ -178,24 +178,32 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 12,
-    backgroundColor: '#fff',
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: '#ddd',
+    borderBottomWidth: 1,
+    borderBottomColor: 'rgba(0, 0, 0, 0.1)',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
   },
   titleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
   },
   title: {
-    fontSize: 24,
-    fontWeight: 'bold',
+    fontSize: 28,
+    fontWeight: '700',
     paddingTop: 20,
+    letterSpacing: 0.5,
+    color: '#1a1a1a',
   },
   iconsContainer: {
     flexDirection: 'row',
     paddingTop: 20,
+    alignItems: 'center',
   },
   headerIcon: {
-    marginLeft: 20,
+    marginLeft: 24,
+    opacity: 0.8,
   }
 });
