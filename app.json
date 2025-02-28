@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "stock_image",
-    "slug": "stock_image",
+    "name": "social-app-expo",
+    "slug": "social-app-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
